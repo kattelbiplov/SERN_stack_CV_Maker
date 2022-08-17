@@ -1,0 +1,25 @@
+{
+    "name": "cvmaker",
+    "version": "1.0.0",
+    "description": "A web app used for building instant readymade resume",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cv",
+        "maker",
+        "resume",
+        "builder"
+    ],
+    "author": "biplov kattel",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.3",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
+}
